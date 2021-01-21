@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/shop"
+            android:title="Home" />
+
+        <item android:title = "Shop List">
+            <menu>
+                <item
+                    android:id="@+id/nav_cake"
+                    android:icon="@drawable/shop"
+                    android:title="Cake Shop" />
+
+                <item
+                    android:id="@+id/nav_home2"
+                    android:icon="@drawable/shop"
+                    android:title="Macaron Shop" />
+
+                <item
+                    android:id="@+id/reg"
+                    android:icon="@drawable/shop"
+                    android:title="+" />
+            </menu>
+        </item>
+
+        <item android:title = "Review">
+           <menu>
+                <item
+                    android:id="@+id/nav_gallery"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="Review" />
+
+           </menu>
+        </item>
+    <item android:title = "Settings">
+        <menu>
+             <item
+                android:id="@+id/nav_slideshow"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Settings" />
+        </menu>
+    </item>
+</menu>
